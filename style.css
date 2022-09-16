@@ -1,0 +1,70 @@
+body {
+  background-color: skyblue;
+}
+h3 {
+  color: green;
+}
+.Pro{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    }
+    .Exp{ 
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+        }
+    .Abi{
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;}
+    .Proje{background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;}
+    .Con{background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;}
+         @keyframes example {
+            from {background-color: red;}
+            to {background-color: yellow;}
+            to{background-color: aqua;}
+            to{background-color: rgba(4, 255, 0, 0.755);}
+            to{background-color: rgb(255, 0, 242);}
+            to{background-color: rgb(153, 0, 255);}
+
+          }
+          div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: example;
+            animation-duration: 4s;
+          }
+          .div2 {
+            width: 300px;
+          }

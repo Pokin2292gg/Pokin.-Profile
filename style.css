@@ -58,13 +58,11 @@ h3 {
             to{background-color: rgb(153, 0, 255);}
 
           }
-          div {
+          .div1 {
             width: 100px;
             height: 100px;
             background-color: red;
             animation-name: example;
             animation-duration: 4s;
           }
-          .div2 {
-            width: 300px;
-          }
+          

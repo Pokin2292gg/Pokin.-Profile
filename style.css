@@ -8,11 +8,14 @@ h3 {
     background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 30px 50px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 32px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
     }
     .Exp{ 
       background-color: #4CAF50; /* Green */
@@ -22,17 +25,23 @@ h3 {
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 16px;
+      font-size: 32px;
+      list-style-type: none;
+     margin: 0;
+     padding: 0; 
         }
     .Abi{
       background-color: #4CAF50; /* Green */
       border: none;
       color: white;
-      padding: 15px 32px;
+      padding: 20px 45px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 16px;}
+      font-size: 32px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;}
     .Proje{background-color: #4CAF50; /* Green */
       border: none;
       color: white;
@@ -40,7 +49,10 @@ h3 {
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 16px;}
+      font-size: 32px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;}
     .Con{background-color: #4CAF50; /* Green */
       border: none;
       color: white;
@@ -48,7 +60,10 @@ h3 {
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 16px;}
+      font-size: 32px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;}
          @keyframes example {
             from {background-color: red;}
             to {background-color: yellow;}
@@ -64,5 +79,25 @@ h3 {
             background-color: red;
             animation-name: example;
             animation-duration: 4s;
+          }
+          .image{text-align: center;}
+          input[type=text] {
+            width: 130px;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+          }
+          
+          input[type=text]:focus {
+            width: 30%;
+          }
+          
+          input[type=email] {
+            width: 130px;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+          }
+          
+          input[type=email]:focus {
+            width: 30%;
           }
           
